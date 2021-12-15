@@ -1,0 +1,12 @@
+Source: ros-rolling-hash-library-vendor
+Section: misc
+Priority: optional
+Maintainer: Kenji Miyake <kenji.miyake@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), git, ros-rolling-ament-cmake-auto, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-ros-workspace
+Homepage: https://github.com/stbrumme/hash-library
+Standards-Version: 3.9.2
+
+Package: ros-rolling-hash-library-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ros-workspace
+Description: ROS2 vendor package for stbrumme/hash-library
